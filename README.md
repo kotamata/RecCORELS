@@ -12,3 +12,8 @@
 - RecCORELS.ipynb : CORELS を拡張してルールリストを列挙するコード
 - result.ipynb : Discrepancy と Ambiguity を計算するのに使用したコード
 - corels.pkl : RecCORELS.ipynb を用いて列挙したモデルを格納したファイル
+
+### code_with_race : 実験に使用したコードが格納
+- RecCORELS_with_race.ipynb : CORELS を拡張してルールリストを列挙するコード
+- result_with_race.ipynb : Discrepancy と Ambiguity と Fairness(Demographic parity, Equal opptunity) を計算するのに使用したコード
+- corels_with_race.pkl : Rec_CORELS_with_race.ipynb を用いて列挙したモデルを格納したファイル
