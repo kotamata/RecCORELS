@@ -7,7 +7,8 @@
 - compas_train/test_preprocessed.csv : compas_train/test.csv に preprocess.ipynb を用いて前処理(one-hot encoding)を行なった訓練/テストデータ
 - term_over1.pkl : compas_train.out に preprocess.ipynb を用いて前処理(条件を満たすデータ全体のうちラベルの割合が 50% 以上になるタームのみを抽出)を行なったターム
 - term_list.pkl : term_over1.pkl に格納されているタームを python のリスト形式で保存したファイル
-- get_compas.ipynb :  
+- get_compas.ipynb :  ProPublica's COMPAS recidivism dataset の compas-scores-two-years.csv を取得し前処理を加えcompas_train_test_race_preprocessed.csv を生成するコード
+- preprocess_with_race.ipynb : compas_train/test.csv に preprocess.ipynb を用いて前処理(one-hot encoding)を行なった訓練/テストデータ
 
 ### code : 実験に使用したコードが格納
 - RecCORELS.ipynb : CORELS を拡張してルールリストを列挙するコード
